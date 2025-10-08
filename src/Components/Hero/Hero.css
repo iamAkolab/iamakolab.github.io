@@ -7,6 +7,8 @@
 
 .hero img{
     margin-top: 100px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .hero h1{
@@ -83,6 +85,8 @@
     .hero img{
         margin-top: 120px;
         width: 260px;
+        border-radius: 50%;
+        object-fit: cover;
     }
 
     .hero h1{
