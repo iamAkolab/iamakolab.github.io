@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Hero.css'
-import profile_img from '../../assets/profile_img.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import profile_pic from '../../assets/profile_pic.png'
 
 const Hero = () => {
   const roles = ["Software Engineer", "Machine Learning Engineer", "Cloud Engineer", "DevSecOps Engineer"];
@@ -31,7 +31,7 @@ const Hero = () => {
 
   return (
     <div id='home' className='hero'>
-        <img src={profile_img} alt="" />
+        <img src={profile_pic} alt="" />
         <h1>
          <span>Hi, I'm Akolab</span>{" "} <br />
          <span className="role-text">{displayedText}</span>{" "}
