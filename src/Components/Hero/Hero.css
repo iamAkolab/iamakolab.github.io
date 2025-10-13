@@ -57,6 +57,8 @@
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
 .hero-resume:hover{

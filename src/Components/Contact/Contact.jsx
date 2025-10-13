@@ -26,7 +26,9 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      alert(res.message)
+            alert(res.message)
+            // reset the form fields
+            event.target.reset();
     }
   };
 
@@ -42,13 +44,13 @@ const Contact = () => {
                 <p>I am currently open to new opportunities and collaborations. Whether you have a question, a project idea, or just want to say hello, feel free to reach out. I look forward to connecting with you!</p>
                 <div className="contact-details">
                     <div className="contact-detail">
-                        <img src={mail_icon} alt="" /> <p>contactus@gmail.com</p>
+                        <img src={mail_icon} alt="" /> <p>donakolab94@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={call_icon} alt="" /> <p>+1 234 567 890</p>
+                        <img src={call_icon} alt="" /> <p>+1 (385) 420-0404</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={location_icon} alt="" /> <p>San Francisco, CA</p>
+                        <img src={location_icon} alt="" /> <p>Salt Lake City, UT</p>
                       
                     </div>
                     <div className="contact-detail">

@@ -16,8 +16,14 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>I am an Experienced Software Engineer with a demonstrated history of working in the financial services industry. <br />
-                    I am passionate about developing scalable cloud-based app and leveraging AI to create innovative solutions that address real-world challenges.</p>
+                    <p> I am an Experienced Software Engineer with a demonstrated history of working in the Financial Services Industry. 
+                        I hold a BSc in Systems Engineering and an MSc in Computer Science, I continuously seek opportunities to learn, adapt, and contribute.
+                    </p>
+                    <p>
+                        My expertise lies in designing and developing scalable, cloud-based applications and integrating AI technologies using modern stacks such as Java, Python, and React.js.
+                        I’m passionate about transforming complex problems into elegant, data-driven solutions that deliver real value to users.
+                        
+                    </p>
                 </div>
                 <div className="about-skills">
                     <div className="about-skill"><p> Java </p> <hr style={{width:"75%"}} /></div>
@@ -29,17 +35,17 @@ const About = () => {
         </div>
         <div className="about-achievements">
             <div className="about-achievement">
-                <h1>10+</h1>
+                <h1>5+</h1>
                 <p>YEARS OF EXPERIENCE</p>
             </div>
             <hr />
             <div className="about-achievement">
-                <h1>90+</h1>
+                <h1>20+</h1>
                 <p>PROJECTS COMPLETED</p>
             </div>
             <hr />
             <div className="about-achievement">
-                <h1>15+</h1>
+                <h1>10+</h1>
                 <p>HAPPY CLIENTS</p>
             </div>
         </div>
