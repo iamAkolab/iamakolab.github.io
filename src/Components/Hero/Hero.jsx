@@ -37,8 +37,15 @@ const Hero = () => {
          <span className="role-text">{displayedText}</span>{" "}
         </h1>
         <div className="hero-action">
-          <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-          <div className="hero-resume">My Resume</div>
+          <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with Me</AnchorLink></div>
+          <a
+            href="https://drive.google.com/file/d/1de9Z7fy30h4B269xT2omp9PO2BBIj88T/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero-resume"
+          >
+            My Resume
+          </a>
         </div>
     </div>
   )

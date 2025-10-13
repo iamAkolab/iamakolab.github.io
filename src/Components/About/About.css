@@ -44,6 +44,15 @@
     font-weight: 500;
 }
 
+.about-para p {
+  margin: 0;
+  text-align: justify; /* Optional: creates even spacing between words */
+  hyphens: auto;       /* Allows hyphenation for long words if needed */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.6;    /* Improves readability with better line spacing */
+}
+
 .about-skills{
     display: flex;
     flex-direction: column;
