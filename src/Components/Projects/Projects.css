@@ -38,9 +38,10 @@
 }
 
 .projects-container img:hover{
-    transform: scale(1.10);
-    border: 4px solid #ff00ff;
+    border: 2px solid #a786ff;
+    box-shadow: 0 0 12px rgba(209, 102, 255, 0.4);
     border-radius: 10px;
+    transform: scale(1.10);
     transition: 0.3s;
 }
 

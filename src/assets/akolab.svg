@@ -1,0 +1,15 @@
+<svg width="340" height="80" xmlns="http://www.w3.org/2000/svg">
+  <!-- "iam" in light gray, bold -->
+  <text x="10" y="55"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="48"
+        font-weight="bold"
+        fill="#AAAAAA">iam</text>
+
+  <!-- "akolab" in dark gray/black, bold -->
+  <text x="92" y="55"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="48"
+        font-weight="bold"
+        fill="#F5F5F5">akolab</text>
+</svg>
