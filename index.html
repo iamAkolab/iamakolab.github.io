@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdullah Oladoyin Akinde | Software Engineer</title>
+    <title>iamakolab | Software Engineer</title>
     <meta name="description" content="Portfolio of Abdullah Oladoyin Akinde — Software Engineer at Goldman Sachs. AI/ML, Cybersecurity, Financial Engineering & Research.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -598,7 +598,7 @@
             </div>
             <div class="exp-list">
                 <div class="exp-item reveal">
-                    <div class="exp__date">2023 — Present</div>
+                    <div class="exp__date">June 2023 — Present</div>
                     <div>
                         <h3 class="exp__role">GBM Engineering Associate</h3>
                         <div class="exp__company">Goldman Sachs</div>
@@ -610,7 +610,7 @@
                     </div>
                 </div>
                 <div class="exp-item reveal">
-                    <div class="exp__date">2021 — 2023</div>
+                    <div class="exp__date">July 2019 — Aug. 2021</div>
                     <div>
                         <h3 class="exp__role">Application & Database Security Analyst (IT Risk)</h3>
                         <div class="exp__company">Fidelity Bank Nigeria</div>
@@ -622,7 +622,7 @@
                     </div>
                 </div>
                 <div class="exp-item reveal">
-                    <div class="exp__date">2019 — 2021</div>
+                    <div class="exp__date">Jan. 2019 — June 2019</div>
                     <div>
                         <h3 class="exp__role">Data Analyst</h3>
                         <div class="exp__company">Credit Direct</div>
@@ -788,13 +788,13 @@
                 <div class="edu-card reveal">
                     <div class="edu-card__deg">M.S. Computer Science & Quantitative Methods</div>
                     <div class="edu-card__school">Austin Peay State University</div>
-                    <div class="edu-card__date">Completed</div>
+                    <div class="edu-card__date">Completed 2023</div>
                     <p class="edu-card__info">Concentration in Predictive Analytics. Research in AI-driven trading systems, software supply chain security, and data privacy.</p>
                 </div>
                 <div class="edu-card reveal">
                     <div class="edu-card__deg">B.Sc. Computer Science</div>
                     <div class="edu-card__school">University of Lagos</div>
-                    <div class="edu-card__date">Completed</div>
+                    <div class="edu-card__date">Completed 2016</div>
                     <p class="edu-card__info">Foundation in computer science, software engineering, robotics, and information systems. Served as Robotics Lab Assistant.</p>
                 </div>
             </div>
@@ -937,7 +937,7 @@
                 const data = await res.json();
                 const badges = data.data || data;
                 if (Array.isArray(badges) && badges.length > 0) {
-                    container.innerHTML = badges.map(renderBadge).join('');
+                    container.innerHTML = badges.slice(0, 12).map(renderBadge).join('');
                 } else { throw new Error('No badges'); }
             } catch (e) {
                 console.log('Credly dynamic load unavailable:', e.message);
